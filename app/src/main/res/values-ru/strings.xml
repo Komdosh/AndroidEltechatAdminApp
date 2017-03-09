@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Eltechat Admin</string>
+
+    <string name="enterName">Имя</string>
+    <string name="enterPassword">Пароль</string>
+    <string name="btnJoin">ВОЙТИ</string>
+    <string name="joinEmptyNameToast">Пожалуйста введите имя</string>
+    <string name="joinSpaceNameToast">Пробелы в нике недопустимы</string>
+    <string name="messagePlaceholder">Напишите сообщение…</string>
+
+    <string name="smthHappensWithServer">"С сервером что-то не так, мы работаем над этим"</string>
+    <string name="smthStrangeHappensWithServer">На сервере произошли странные события</string>
+    <string name="loginFailure">Это имя уже занято, выберите другое</string>
+
+    <plurals name="newUserConnected">
+        <item quantity="one">%1$s подключился. Теперь %2$d человек в чате!</item>
+        <item quantity="few">%1$s подключился. Теперь %2$d человека в чате!</item>
+        <item quantity="other">%1$s подключился. Теперь %2$d человека в чате!</item>
+        <item quantity="many">%1$s подключился. Теперь %2$d людей в чате!</item>
+    </plurals>
+
+    <plurals name="userDisconnected">
+        <item quantity="one">%1$s отключился. Теперь %2$d человек в чате</item>
+        <item quantity="few">%1$s отключился. Теперь %2$d человека в чате</item>
+        <item quantity="other">%1$s отключился. Теперь %2$d человека в чате</item>
+        <item quantity="many">%1$s отключился. Теперь %2$d людей в чате</item>
+    </plurals>
+
+    <string name="kick">Вы были выкинуты из чата!</string>
+    <string name="mute">Вы не можете писать в чат!</string>
+    <string name="unmute">Вы можете писать в чат!</string>
+
+    <string name="online">В сети: %1$d</string>
+</resources>

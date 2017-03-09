@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Eltechat Admin</string>
+
+    <string name="enterName">Enter your name</string>
+    <string name="enterPassword">Enter your password</string>
+    <string name="btnJoin">JOIN</string>
+    <string name="joinEmptyNameToast">Please enter your name</string>
+    <string name="joinSpaceNameToast">No spaces allowed</string>
+    <string name="messagePlaceholder">Write a message…</string>
+
+    <string name="smthHappensWithServer">Server has a problem</string>
+    <string name="smthStrangeHappensWithServer">Server has a real problem, we don\'t know what it is</string>
+    <string name="loginFailure">This nickname is already busy</string>
+
+    <plurals name="newUserConnected">
+        <item quantity="one">%1$s connected. Currently %2$d person online!</item>
+        <item quantity="few">%1$s connected. Currently %2$d people online!</item>
+        <item quantity="other">%1$s connected. Currently %2$d people online!</item>
+        <item quantity="many">%1$s connected. Currently %2$d people online!</item>
+    </plurals>
+
+    <plurals name="userDisconnected">
+        <item quantity="one">%1$s disconnected. Currently %2$d person online!</item>
+        <item quantity="few">%1$s disconnected. Currently %2$d people online!</item>
+        <item quantity="other">%1$s disconnected. Currently %2$d people online!</item>
+        <item quantity="many">%1$s disconnected. Currently %2$d people online!</item>
+    </plurals>
+
+    <string name="kick">You were kicked!</string>
+    <string name="mute">You were muted!</string>
+    <string name="unmute">You were unmuted!</string>
+
+    <string name="online">Online: %1$d</string>
+</resources>

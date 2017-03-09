@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#37A7EE</color>
+    <color name="colorPrimary">#37A7EE</color>
+    <color name="colorPrimaryDark">#37A7EE</color>
+    <color name="background">#151E29</color>
+
+    <color name="titleGray">#434343</color>
+    <color name="white">#ffffff</color>
+    <color name="bgMessage">#37A7EE</color>
+    <color name="bgMessageFrom">#79AFC9</color>
+    <color name="bgMessageServer">#ef9a9a</color>
+    <color name="lblFromName">#777777</color>
+</resources>
