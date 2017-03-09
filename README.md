@@ -1,102 +1,76 @@
 # AndroidEltechatAdminApp
 Chat for Eltech university students with admins functionality
-## Сервер API
-### Сообщения с сервера 
 
-Простое сообщение: 
+
+## Server API
+### Responses
+
+Message from user: 
 ```JSON
-
 {"flag":"message", "messageId":0, "name":"megalok", "message":"text"}
 ```
 
-(АДМИН) Удаление сообщения:
-
+(Admin) Delete message:
 ```JSON
-
 {"flag":"deleteMessage", "messageId":0}
 ```
 
-
-Пользователь зашёл удачно:
-
+Login successfully:
 ```JSON
-
 {"flag":"loginSuccess"}
 ```
 
-Пользователь не смог зайти из-за ника:
-
+Login failure because of nickname:
 ```JSON
-
 {"flag":"loginFailureNickname"}
 ```
 
-Пользователь не смог зайти ошибка сервера:
-
+Login failure because of server internal error:
 ```JSON
-
 {"flag":"loginServerFailure"}
 ```
-
-Другой пользователь зашёл:
-
+Another user login:
 ```JSON
-
 {"flag":"newUserConnect", "name":"Komdosh", "online":1}
 ```
-
-Другой пользователь вышел:
-
+Another user logout:
 ```JSON
-
 {"flag":"userDisconnect", "name":"Komdosh", "online":2}
 ```
 
-(АДМИН) Кик пользователя:
-
+(Admin) Kick user:
 ```JSON
-
 {"flag":"kick", "name":"Komdosh"}
 ```
 
-(АДМИН | МОДЕРАТОР) Мут пользователя: 
-
+(Admin) Mute user: 
 ```JSON
-
 {"flag":"mute", "name":"megalok"}
 ```
 
-### Сообщения на сервер 
-Простое сообщение: 
+### Requests 
 
+Message: 
 ```JSON
-
 {"flag":"message", "name":"megalok",  "message":"text"} 
 ```
 
-(АДМИН) Удаление сообщения: (поле "sec" временно отсутствует)
-
+(Admin) Delete user: (field "sec" current is not implemented)
 ```JSON
-
 {"flag":"deleteMessage", "messageId":0, "sec":"1234"}
 ```
 
-(АДМИН) Кик пользователя: (поле "sec" временно отсутствует)
-
+(Admin) Kick user: (field "sec" current is not implemented)
 ```JSON
-
 {"flag":"kick", "name":"Komdosh", "sec":"g134f"}
 ```
 
-(АДМИН | МОДЕРАТОР) Замутить пользователя: 
-
+(Admin) Mute user: 
 ```JSON
-
 {"flag":"mute", "name":"megalok"}
 ```
 
-(АДМИН | МОДЕРАТОР) Размутить пользователя: 
-
+(Admin) Unmute user: 
 ```JSON
-
 {"flag":"unmute", "name":"megalok"}
+```
