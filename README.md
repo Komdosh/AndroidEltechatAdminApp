@@ -1,6 +1,9 @@
 # AndroidEltechatAdminApp
 Chat for Eltech university students with admins functionality
 
+## Server for this app
+https://github.com/Lmglk/Eltechat
+
 
 ## Server API
 ### Responses
